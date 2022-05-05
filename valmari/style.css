@@ -5,26 +5,34 @@
 
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
 
 }
 
-:focus, :active {
+:focus,
+:active {
     outline: none
 }
 
-a:focus, a:active {
+a:focus,
+a:active {
     outline: none;
 }
 
-nav, footer, header, aside {
+nav,
+footer,
+header,
+aside {
     display: block;
 }
 
-html, body {
+html,
+body {
     height: 100%;
     width: 100%;
     font-size: 100%;
@@ -36,7 +44,9 @@ html, body {
 
 }
 
-input, button, textarea {
+input,
+button,
+textarea {
     font-family: inherit;
 }
 
@@ -53,7 +63,8 @@ button:-moz-focus-innesr {
     border: 0;
 }
 
-a, a:visited {
+a,
+a:visited {
     text-decoration: none;
     color: black;
 }
@@ -70,7 +81,12 @@ img {
     vertical-align: top;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-size: inherit;
     font-weight: 400;
 }
@@ -95,7 +111,8 @@ h1, h2, h3, h4, h5, h6 {
     left: 0;
     width: 100%;
 }
-.header__line{
+
+.header__line {
     height: 1px;
     max-width: 100%;
     background: rgba(85, 166, 48, 0.5);
@@ -130,6 +147,7 @@ h1, h2, h3, h4, h5, h6 {
     justify-content: space-between;
     align-items: center;
 }
+
 .header__logo {
     cursor: pointer;
     position: relative;
@@ -144,7 +162,7 @@ h1, h2, h3, h4, h5, h6 {
     cursor: pointer;
 }
 
-.header__phone > *:not(:last-child) {
+.header__phone>*:not(:last-child) {
     margin-right: 22px;
 }
 
@@ -163,11 +181,11 @@ h1, h2, h3, h4, h5, h6 {
     z-index: 2;
 }
 
-.header__socials > * {
+.header__socials>* {
     cursor: pointer;
 }
 
-.header__socials > *:not(:last-child) {
+.header__socials>*:not(:last-child) {
     margin-right: 26px;
 }
 
@@ -191,7 +209,8 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 20px;
     line-height: 26px;
 }
-.header__item a{
+
+.header__item a {
     color: #424242;
 }
 
@@ -201,15 +220,15 @@ h1, h2, h3, h4, h5, h6 {
 
 .main {
     margin-top: 7%;
-	padding-top: 2%;
-    background-color: rgba(236, 255, 235, 1);
+    padding-top: 2%;
 }
 
 .main__container {
     width: 75%;
     margin: auto;
 }
-.img__head{
+
+.img__head {
     margin-left: 15%;
 }
 
@@ -229,7 +248,7 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 65px;
     line-height: 65px;
     color: #55A630;
-	margin: 3% 0;
+    margin: 3% 0;
 }
 
 .paragraph__header p {
@@ -269,11 +288,13 @@ h1, h2, h3, h4, h5, h6 {
     box-sizing: border-box;
     transition: all 0.2s linear;
 }
-.button:hover{
+
+.button:hover {
     color: white;
     background: #55A630;
 
 }
+
 .btn-1 {
     margin-right: 2%;
 }
@@ -283,18 +304,27 @@ h1, h2, h3, h4, h5, h6 {
 .section-1 {
     margin-top: 5%;
 }
+
+.hero {
+    background-color: rgba(236, 255, 235, 1);
+}
+
 .wrap {
     display: flex;
 }
-.img__sec1{
-    width:50%;
+
+.img__sec1 {
+    width: 50%;
 }
-.img__sec1 img{
-    width:100%;
+
+.img__sec1 img {
+    width: 100%;
 }
-.content-sec-1{
-    width:50%;
+
+.content-sec-1 {
+    width: 50%;
 }
+
 .content-sec-1 h2 {
     margin-bottom: 5%;
     font-family: 'Montserrat', sans-serif;
@@ -304,10 +334,12 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 28px;
     color: #858585;
 }
+
 .content-sec-1 {
-    padding-left: 10%; 
+    padding-left: 10%;
     box-sizing: border-box;
 }
+
 .content-sec-1 h3 {
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
@@ -315,9 +347,11 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 35px;
     line-height: 107%;
 }
+
 .content-sec-1 h3 span {
     color: #55A630;
 }
+
 .content-sec-1 P {
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
@@ -327,6 +361,7 @@ h1, h2, h3, h4, h5, h6 {
     color: #424242;
     margin-top: 15%;
 }
+
 .content-sec-1 h6 {
     display: flex;
     justify-content: flex-end;
@@ -338,9 +373,10 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 28px;
     color: #55A630;
 }
-.content-sec-1 img{
+
+.content-sec-1 img {
     position: relative;
-    top:10px;
+    top: 10px;
     left: 10px;
 }
 
@@ -353,14 +389,16 @@ h1, h2, h3, h4, h5, h6 {
     display: flex;
     justify-content: space-between;
 }
+
 .content-sec-2 h2 {
-    font-family: 'Montserrat',sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
     line-height: 115%;
     color: #55A630;
 }
+
 .content-sec-2 p {
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
