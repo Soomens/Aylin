@@ -8,13 +8,13 @@
     display: flex;
     justify-content: space-between;
     padding-bottom: 45px;
-    border-bottom: 1px solid #bfd2f8;
+    border-bottom: 1px solid #bff8c4;
 }
 .footer__first__title {
     font-weight: 400;
     font-size: 36px;
     line-height: 42px;
-    color: #bfd2f8;
+    color: #caf8bf;
     margin-bottom: 18px;
 }
 .footer__subtitle {
@@ -46,7 +46,7 @@
 .footer__input {
     width: 272px;
     height: 50px;
-    background: #bfd2f8;
+    background: #bff8cb;
     border-radius: 5px;
     padding-left: 10px;
 }
@@ -54,7 +54,7 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 140%;
-    color: #1da1f2;
+    color: #55a630;
 }
 .footer__bottom {
     width: 100%;
