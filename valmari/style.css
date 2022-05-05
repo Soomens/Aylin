@@ -115,6 +115,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .header__body {
     position: relative;
+    background: rgb;
 }
 
 .header__top {
@@ -213,7 +214,7 @@ h1, h2, h3, h4, h5, h6 {
     margin: auto;
 }
 .img__head{
-   margin-left: 15%;
+    margin-left: 15%;
 }
 
 .h6__style h6 {
@@ -331,7 +332,7 @@ h1, h2, h3, h4, h5, h6 {
     color: #858585;
 }
 .content-sec-1 {
-     padding-left: 10%; 
+    padding-left: 10%; 
     box-sizing: border-box;
 }
 .content-sec-1 h3 {
@@ -355,8 +356,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 .content-sec-1 h6 {
     display: flex;
-  justify-content: flex-end;
-     margin-top: 40px;
+    justify-content: flex-end;
+    margin-top: 40px;
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -369,105 +370,6 @@ h1, h2, h3, h4, h5, h6 {
     top:10px;
     left: 10px;
 }
-@media (max-width:1441px){
-.content-sec-1 h2 {
-    margin-bottom: 5%;
-    font-family: 'Montserrat', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 20px;
-    color: #858585;
-}
-
-
-.content-sec-1 h3 {
-    font-family: 'Montserrat', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 30px;
-    line-height: 100%;
-}
-
-.content-sec-1 h3 span {
-    color: #55A630;
-}
-
-.content-sec-1 P {
-    font-family: 'Montserrat', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 29px;
-    color: #424242;
-    margin-top: 15%;
-}
-
-.content-sec-1 h6 {
-    display: flex;
-    margin-top: 40px;
-    margin-left: 50%;
-    font-family: 'Montserrat', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 20px;
-    color: #55A630;
-}
-}
-@media (max-width:991px) {
-    .content-sec-1 h2 {
-        margin-bottom: 5%;
-        font-family: 'Montserrat', sans-serif;
-        font-style: normal;
-        font-weight: 500;
-        font-size: 15px;
-        line-height: 28px;
-        color: #858585;
-    }
-
-    .content-sec-1 {
-        padding-left: 10%;
-        box-sizing: border-box;
-    }
-
-    .content-sec-1 h3 {
-        font-family: 'Montserrat', sans-serif;
-        font-style: normal;
-        font-weight: 700;
-        font-size: 25px;
-       
-    }
-
-    .content-sec-1 h3 span {
-        color: #55A630;
-    }
-
-    .content-sec-1 P {
-        font-family: 'Montserrat', sans-serif;
-        font-style: normal;
-        font-weight: 500;
-        font-size: 15px;
-        line-height: 29px;
-        color: #424242;
-        margin-top: 15%;
-    }
-
-    .content-sec-1 h6 {
-        display: flex;
-        margin-top: 40px;
-
-        margin-left: 50%;
-        font-family: 'Montserrat', sans-serif;
-        font-style: normal;
-        font-weight: 500;
-        font-size: 15px;
-        line-height: 18px;
-        color: #55A630;
-    }
-}
-@media (max-width:576px) {}
-
 
 /* ВЕДЕМ НАБОР МОДЕЛЕЙ */
 
