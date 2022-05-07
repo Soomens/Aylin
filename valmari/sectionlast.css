@@ -1,0 +1,9 @@
+.section__cards {
+    display: flex;
+    justify-content: space-between;
+}
+.card {
+    width: 233px;
+    height: 233px;
+    background: #caf8bf;
+}
