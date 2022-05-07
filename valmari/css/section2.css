@@ -6,7 +6,7 @@
 }
 
 .impulse_heart {
-    background: url(imgs/Vector.svg);
+    background: url(../imgs/Vector.svg);
     width: 50px;
     height: 44px;
     transition: 0.2s;
@@ -43,6 +43,6 @@
     margin-bottom: 0;
     opacity: 1;
     transition: 0.2s;
-    background: url(imgs/Vector\ active.svg);
+    background: url(../imgs/Vector\ active.svg);
 
 }

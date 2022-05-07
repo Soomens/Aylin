@@ -38,35 +38,35 @@
 }
 
 .call__icon {
-    background: url(imgs/call.svg) no-repeat;
+    background: url(../imgs/call.svg) no-repeat;
 }
 
 .card:hover .call__icon {
-    background: url(imgs/call\ active.svg) no-repeat;
+    background: url(../imgs/call\ active.svg) no-repeat;
 }
 
 .location__icon {
-    background: url(imgs/location.svg) no-repeat;
+    background: url(../imgs/location.svg) no-repeat;
 }
 
 .card:hover .location__icon {
-    background: url(imgs/location\ active.svg) no-repeat;
+    background: url(../imgs/location\ active.svg) no-repeat;
 }
 
 .email__icon {
-    background: url(imgs/email.svg) no-repeat;
+    background: url(../imgs/email.svg) no-repeat;
 }
 
 .card:hover .email__icon {
-    background: url(imgs/email\ active.svg) no-repeat;
+    background: url(../imgs/email\ active.svg) no-repeat;
 }
 
 .clock__icon {
-    background: url(imgs/time.svg) no-repeat;
+    background: url(../imgs/time.svg) no-repeat;
 }
 
 .card:hover .clock__icon {
-    background: url(imgs/time\ active.svg) no-repeat;
+    background: url(../imgs/time\ active.svg) no-repeat;
 }
 
 .card:hover {
