@@ -24,7 +24,7 @@
     box-sizing: border-box;
     border: 0.15px solid rgba(0, 0, 0, 0.19);
     border-radius: 5px;
-
+    color: #424242;
 }
 
 .grid__item p {
