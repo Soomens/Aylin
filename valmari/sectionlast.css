@@ -2,9 +2,37 @@
     display: flex;
     justify-content: space-between;
 }
+
 .card {
     width: 233px;
     height: 233px;
-    background: #caf8bf;
+    background: #c1f8bf;
     border-radius: 5px;
+    padding: 55px 0 50px;
+    text-align: center;
+}
+
+.last__title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    color: #55A630;
+    margin: 15px 0 8px;
+}
+
+.last__subtitle {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #55A630;
+}
+
+.card:hover {
+    background: #55A630;
+    transition: all 0.2s linear;
+}
+
+.card:hover .last__title,
+.card:hover .last__subtitle {
+    color: #c1f8bf;
 }
