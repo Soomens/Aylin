@@ -414,7 +414,7 @@ section {
 }
 
 .title {
-    margin: auto;
+    margin: 0 auto 64px;
 }
 
 .title h4 {
