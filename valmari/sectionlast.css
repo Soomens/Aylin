@@ -10,6 +10,7 @@
     border-radius: 5px;
     padding: 55px 0 50px;
     text-align: center;
+    cursor: pointer;
 }
 
 .last__title {
@@ -25,6 +26,47 @@
     font-size: 16px;
     line-height: 140%;
     color: #55A630;
+}
+
+.call__icon,
+.location__icon,
+.email__icon,
+.clock__icon {
+    width: 40px;
+    height: 40px;
+    margin: auto;
+}
+
+.call__icon {
+    background: url(imgs/call.svg) no-repeat;
+}
+
+.card:hover .call__icon {
+    background: url(imgs/call\ active.svg) no-repeat;
+}
+
+.location__icon {
+    background: url(imgs/location.svg) no-repeat;
+}
+
+.card:hover .location__icon {
+    background: url(imgs/location\ active.svg) no-repeat;
+}
+
+.email__icon {
+    background: url(imgs/email.svg) no-repeat;
+}
+
+.card:hover .email__icon {
+    background: url(imgs/email\ active.svg) no-repeat;
+}
+
+.clock__icon {
+    background: url(imgs/time.svg) no-repeat;
+}
+
+.card:hover .clock__icon {
+    background: url(imgs/time\ active.svg) no-repeat;
 }
 
 .card:hover {
