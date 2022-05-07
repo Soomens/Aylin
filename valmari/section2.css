@@ -1,6 +1,39 @@
-.section-2__grid{
+.section-2__grid {
     width: 992px;
     height: 516px;
     display: flex;
     flex-wrap: wrap;
+}
+
+.impulse_heart {
+    background: url(imgs/Vector.svg);
+    width: 50px;
+    height: 44px;
+}
+
+.grid__item {
+    width: 248px;
+    height: 172px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    border: 0.15px solid rgba(0, 0, 0, 0.19);
+}
+
+.grid__item p {
+    margin-top: 8px;
+}
+
+.grid__item:hover {
+    border: none;
+    background: #55A630;
+    border-radius: 5px;
+    transition: 0.2s;
+    color: white;
+}
+
+.grid__item:hover .impulse_heart {
+    background: url(imgs/Vector\ active.svg);
 }
