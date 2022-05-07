@@ -9,6 +9,9 @@
     background: url(imgs/Vector.svg);
     width: 50px;
     height: 44px;
+    transition: 1s;
+    opacity: 0;
+    margin-bottom: -50px;
 }
 
 .grid__item {
@@ -26,6 +29,7 @@
 
 .grid__item p {
     margin-top: 8px;
+    font-size: 20px;
 }
 
 .grid__item:hover {
@@ -36,5 +40,9 @@
 }
 
 .grid__item:hover .impulse_heart {
+    margin-bottom: 0;
+    opacity: 1;
+    transition: 0.2s;
     background: url(imgs/Vector\ active.svg);
+
 }
