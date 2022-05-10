@@ -2,11 +2,14 @@
     display: flex;
     justify-content: space-between;
 }
+.section__last .container{
+    width: 60%;
+}
 
 .card {
     width: 233px;
     height: 233px;
-    background: #c1f8bf;
+    background: #faf0db;
     border-radius: 5px;
     padding: 55px 0 50px;
     text-align: center;
@@ -17,7 +20,7 @@
     font-weight: 700;
     font-size: 18px;
     line-height: 21px;
-    color: #55A630;
+    color: #d9b159;
     margin: 15px 0 8px;
 }
 
@@ -25,7 +28,7 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 140%;
-    color: #55A630 !important;
+    color: #d9b159 !important;
 }
 
 .call__icon,
@@ -70,11 +73,11 @@
 }
 
 .card:hover {
-    background: #55A630;
+    background: #d9b159;
     transition: all 0.2s linear;
 }
 
 .card:hover .last__title,
 .card:hover .last__subtitle {
-    color: #c1f8bf !important;
+    color: white !important;
 }

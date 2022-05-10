@@ -2,7 +2,6 @@
     padding: 0;
     margin: 0;
     border: 0;
-
 }
 
 *,
@@ -90,6 +89,7 @@ h6 {
     font-size: inherit;
     font-weight: 400;
 }
+
 .wrapper {
     width: 100%;
     /* overflow: hidden; */
@@ -113,7 +113,7 @@ h6 {
 .header__line {
     height: 1px;
     max-width: 100%;
-    background: rgba(85, 166, 48, 0.5);
+    background: #d9b159;
     position: relative;
     z-index: 2;
 }
@@ -150,6 +150,11 @@ h6 {
     cursor: pointer;
     position: relative;
     z-index: 3;
+    width: 10%;
+}
+
+.header__logo img {
+    width: 100%;
 }
 
 .header__phone {
@@ -209,13 +214,16 @@ h6 {
     justify-content: center;
     transition: 0.1s;
 }
-.header__item:hover{
-    background: #55A630;
+
+.header__item:hover {
+    background: #d9b159;
 }
-.header__item:hover a{
+
+.header__item:hover p {
     color: white;
 }
-.header__item a {
+
+.header__item p {
     color: #424242;
 }
 
@@ -252,7 +260,7 @@ h6 {
     font-weight: 700;
     font-size: 65px;
     line-height: 65px;
-    color: #55A630;
+    color: #d9b159;
     margin: 3% 0;
 }
 
@@ -284,8 +292,8 @@ h6 {
 .button {
     width: 285px;
     height: 66px;
-    border: 1px solid #55A630;
-    color: #55A630;
+    border: 1px solid #d9b159;
+    color: #d9b159;
     font-size: 18px;
     display: flex;
     align-items: center;
@@ -296,7 +304,7 @@ h6 {
 
 .button:hover {
     color: white;
-    background: #55A630;
+    background: #d9b159;
 
 }
 
@@ -311,7 +319,7 @@ h6 {
 }
 
 .hero {
-    background-color: rgba(236, 255, 235, 1);
+    background-color: #faf0db;
 }
 
 .wrap {
@@ -354,7 +362,7 @@ h6 {
 }
 
 .content-sec-1 h3 span {
-    color: #55A630;
+    color: #d9b159;
 }
 
 .content-sec-1 P {
@@ -376,7 +384,7 @@ h6 {
     font-weight: 500;
     font-size: 25px;
     line-height: 28px;
-    color: #55A630;
+    color: #d9b159;
 }
 
 .content-sec-1 img {
@@ -401,7 +409,7 @@ h6 {
     font-weight: 700;
     font-size: 40px;
     line-height: 115%;
-    color: #55A630;
+    color: #d9b159;
 }
 
 .content-sec-2 p {
@@ -426,7 +434,7 @@ section {
     font-size: 24px;
     font-weight: 700;
     text-align: center;
-    color: #2f8308;
+    color: #e7af36;
 }
 
 .title h3 {
@@ -434,5 +442,5 @@ section {
     font-weight: 400;
     line-height: 37px;
     text-align: center;
-    color: #3e9913;
+    color: #d9b159;
 }

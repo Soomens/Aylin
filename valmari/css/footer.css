@@ -1,8 +1,9 @@
 .footer {
     width: 100%;
-    background: #55a630;
+    background: #d9b159;
     padding: 70px 0;
 }
+
 .footer__top {
     width: 100%;
     display: flex;
@@ -10,19 +11,22 @@
     padding-bottom: 45px;
     border-bottom: 1px solid #bff8c4;
 }
+
 .footer__first__title {
     font-weight: 400;
     font-size: 36px;
     line-height: 42px;
-    color: #caf8bf;
+    color: white;
     margin-bottom: 18px;
 }
+
 .footer__subtitle {
     font-weight: 400;
     font-size: 18px;
     line-height: 140%;
     color: #fcfefe;
 }
+
 .footer__second__title,
 .footer__third__title,
 .footer__fourth__title {
@@ -32,30 +36,36 @@
     color: #fcfefe;
     margin-bottom: 40px;
 }
+
 .footer__item {
     font-weight: 400;
     font-size: 16px;
     line-height: 140%;
 }
+
 .footer__item:not(:last-child) {
     margin-bottom: 7px;
 }
+
 .footer__link {
     color: #fcfefe !important;
 }
+
 .footer__input {
     width: 272px;
     height: 50px;
-    background: #bff8cb;
+    background: #e2d8c1;
     border-radius: 5px;
     padding-left: 10px;
 }
+
 .footer__input::placeholder {
     font-weight: 400;
     font-size: 16px;
     line-height: 140%;
-    color: #55a630;
+    color: #d9b159;
 }
+
 .footer__bottom {
     width: 100%;
     display: flex;
@@ -63,17 +73,20 @@
     align-items: center;
     padding-top: 45px;
 }
+
 .footer__copyright {
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
     color: #fcfefe;
 }
+
 .footer__socials {
     width: 8%;
     display: flex;
     justify-content: space-between;
 }
+
 .footer__facebook,
 .footer__instagram {
     cursor: pointer;

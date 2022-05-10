@@ -24,19 +24,23 @@
     box-sizing: border-box;
     border: 0.15px solid rgba(0, 0, 0, 0.19);
     border-radius: 5px;
-    color: #424242;
 }
 
 .grid__item p {
     margin-top: 8px;
     font-size: 20px;
+    color: #424242;
 }
 
 .grid__item:hover {
     border: none;
-    background: #55A630;
+    background: #d9b159;
     transition: 0.2s;
+}
+
+.grid__item:hover p {
     color: white;
+
 }
 
 .grid__item:hover .impulse_heart {
@@ -44,5 +48,4 @@
     opacity: 1;
     transition: 0.2s;
     background: url(../imgs/Vector\ active.svg);
-
 }
