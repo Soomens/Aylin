@@ -293,7 +293,7 @@ h6 {
     width: 285px;
     height: 66px;
     border: 1px solid #d9b159;
-    color: #d9b159;
+    color: #d9b159 !important;
     font-size: 18px;
     display: flex;
     align-items: center;
@@ -303,7 +303,7 @@ h6 {
 }
 
 .button:hover {
-    color: white;
+    color: white !important;
     background: #d9b159;
 
 }

@@ -3,6 +3,10 @@
     height: 516px;
     display: flex;
     flex-wrap: wrap;
+    background: url(../aylin/byRanoGafurova-70323.jpg);
+    background-size: cover;
+    background-position: center center;
+    border-radius: 5px;
 }
 
 .impulse_heart {
@@ -24,12 +28,14 @@
     box-sizing: border-box;
     border: 0.15px solid rgba(0, 0, 0, 0.19);
     border-radius: 5px;
+    background: rgba(0, 0, 0, 0.062);
 }
 
 .grid__item p {
     margin-top: 8px;
     font-size: 20px;
-    color: #424242;
+    color: black;
+    text-shadow: 0 0 10px white;
 }
 
 .grid__item:hover {
@@ -40,6 +46,7 @@
 
 .grid__item:hover p {
     color: white;
+    text-shadow: none;
 
 }
 
