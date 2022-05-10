@@ -92,7 +92,7 @@ h6 {
 
 .wrapper {
     width: 100%;
-    /* overflow: hidden; */
+    overflow: hidden;
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 
@@ -150,7 +150,7 @@ h6 {
     cursor: pointer;
     position: relative;
     z-index: 3;
-    width: 10%;
+    width: 12%;
 }
 
 .header__logo img {
@@ -232,8 +232,8 @@ h6 {
 }
 
 .main {
-    margin-top: 7%;
-    padding-top: 2%;
+    margin-top: 150px;
+    padding-top: 20px;
 }
 
 .main__container {
@@ -328,6 +328,7 @@ h6 {
 
 .img__sec1 {
     width: 50%;
+    height: 781px;
 }
 
 .img__sec1 img {
