@@ -90,11 +90,8 @@ h6 {
     font-size: inherit;
     font-weight: 400;
 }
-
-
 .wrapper {
     width: 100%;
-    /* overflow: hidden; */
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 
@@ -189,10 +186,7 @@ h6 {
     margin-right: 26px;
 }
 
-.header__bottom {
-    padding: 1% 0;
-    border-top: 10px solid rgba(85, 166, 48, 0.5);
-}
+
 
 
 .header__list {
@@ -207,9 +201,19 @@ h6 {
     cursor: pointer;
     font-weight: 500;
     font-size: 20px;
-    line-height: 26px;
+    height: 68px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.1s;
 }
-
+.header__item:hover{
+    background: #55A630;
+}
+.header__item:hover a{
+    color: white;
+}
 .header__item a {
     color: #424242;
 }

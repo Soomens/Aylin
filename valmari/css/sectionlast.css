@@ -1,0 +1,80 @@
+.section__cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    width: 233px;
+    height: 233px;
+    background: #c1f8bf;
+    border-radius: 5px;
+    padding: 55px 0 50px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.last__title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    color: #55A630;
+    margin: 15px 0 8px;
+}
+
+.last__subtitle {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #55A630 !important;
+}
+
+.call__icon,
+.location__icon,
+.email__icon,
+.clock__icon {
+    width: 40px;
+    height: 40px;
+    margin: auto;
+}
+
+.call__icon {
+    background: url(../imgs/call.svg) no-repeat;
+}
+
+.card:hover .call__icon {
+    background: url(../imgs/call\ active.svg) no-repeat;
+}
+
+.location__icon {
+    background: url(../imgs/location.svg) no-repeat;
+}
+
+.card:hover .location__icon {
+    background: url(../imgs/location\ active.svg) no-repeat;
+}
+
+.email__icon {
+    background: url(../imgs/email.svg) no-repeat;
+}
+
+.card:hover .email__icon {
+    background: url(../imgs/email\ active.svg) no-repeat;
+}
+
+.clock__icon {
+    background: url(../imgs/time.svg) no-repeat;
+}
+
+.card:hover .clock__icon {
+    background: url(../imgs/time\ active.svg) no-repeat;
+}
+
+.card:hover {
+    background: #55A630;
+    transition: all 0.2s linear;
+}
+
+.card:hover .last__title,
+.card:hover .last__subtitle {
+    color: #c1f8bf !important;
+}
