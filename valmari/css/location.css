@@ -1,0 +1,7 @@
+.locate{
+    margin-top: 100px;
+}
+.locate .container{
+    display: flex;
+    justify-content: space-between;
+}
