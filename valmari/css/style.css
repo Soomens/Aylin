@@ -243,6 +243,7 @@ h6 {
 
 .img__head {
     margin-left: 15%;
+    width: 50%;
 }
 
 .img__head img {
@@ -291,6 +292,7 @@ h6 {
 
 .content__head {
     padding-top: 10%;
+    width: 50%;
 }
 
 .buttons__head {
