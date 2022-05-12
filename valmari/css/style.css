@@ -268,7 +268,8 @@ h6 {
     color: #212c3f;
     margin: 3% 0;
 }
-.logo__text span{
+
+.logo__text span {
     color: #d9b159;
 }
 
@@ -338,9 +339,21 @@ h6 {
 .img__sec1 {
     width: 50%;
     height: 781px;
+
+}
+.img_sec1 {
+    width: 50%;
+    height: 781px;
+}
+.f{
+    height: 500px !important;
 }
 
 .img__sec1 img {
+    width: 100%;
+}
+
+.img_sec1 img {
     width: 100%;
 }
 
