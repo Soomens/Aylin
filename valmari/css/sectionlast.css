@@ -1,10 +1,14 @@
+
 .section__cards {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
-.section__last .container {
-    width: 1200px;
+.cards-top, .cards-bottom{
+    display: flex;
+    justify-content: space-around;
+    flex: 1 1 50%;
 }
 
 .card {
