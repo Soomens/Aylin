@@ -245,6 +245,11 @@ h6 {
     margin-left: 15%;
 }
 
+.img__head img {
+    width: 100%;
+    margin-top: 100px;
+}
+
 .h6__style h6 {
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
@@ -254,14 +259,17 @@ h6 {
     color: #424242;
 }
 
-.h1__style h1 {
+.logo__text {
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 65px;
     line-height: 65px;
-    color: #d9b159;
+    color: #212c3f;
     margin: 3% 0;
+}
+.logo__text span{
+    color: #d9b159;
 }
 
 .paragraph__header p {
@@ -320,6 +328,7 @@ h6 {
 
 .hero {
     background-color: #faf0db;
+    padding-bottom: 50px;
 }
 
 .wrap {
@@ -360,10 +369,6 @@ h6 {
     font-weight: 700;
     font-size: 35px;
     line-height: 107%;
-}
-
-.content-sec-1 h3 span {
-    color: #d9b159;
 }
 
 .content-sec-1 P {
