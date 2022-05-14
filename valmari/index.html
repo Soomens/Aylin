@@ -11,6 +11,7 @@
         <link rel="stylesheet" href="css/section2.css" />
         <link rel="stylesheet" href="css/sectionprice.css" />
         <link rel="stylesheet" href="css/location.css" />
+        <link rel="stylesheet" href="css/news.css" />
         <title>Document</title>
     </head>
 
@@ -61,7 +62,13 @@
                                     <p href="#" class="header__link">О нас</p>
                                 </li>
                                 <li class="header__item">
-                                    <p href="#" class="header__link">Услуги</p>
+                                    <p
+                                        href="#"
+                                        onclick="news()"
+                                        class="header__link"
+                                    >
+                                        Новости
+                                    </p>
                                 </li>
                                 <li class="header__item" onclick="price()">
                                     <p href="#" class="header__link">
@@ -222,6 +229,89 @@
                     </div>
                 </section>
 
+                <!-- <section class="section__news">
+                    <div class="container">
+                        <div class="row">
+                            <div class="news__image">
+                                <img
+                                    src="aylin/byRanoGafurova-70627.jpg"
+                                    alt="news image"
+                                />
+                            </div>
+                            <div class="news__date">
+                                <div class="news__icon">
+                                    <img src="aylin/data icon.svg" alt="" />
+                                </div>
+                                <p class="date__news">День, Число Месяц, Год</p>
+                            </div>
+                            <div class="news__text">
+                                Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Eius, ea est itaque
+                                exercitationem molestias quam sapiente
+                                praesentium sequi rem totam eum cupiditate
+                                temporibus labore, recusandae repellendus.
+                                Voluptas reiciendis nesciunt magni nobis quos
+                                corporis, inventore quaerat consequatur nostrum
+                                ducimus molestiae quod iure adipisci recusandae
+                                dignissimos debitis soluta cupiditate id unde
+                                provident?
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="news__image">
+                                <img
+                                    src="aylin/byRanoGafurova-70627.jpg"
+                                    alt="news image"
+                                />
+                            </div>
+                            <div class="news__date">
+                                <div class="news__icon">
+                                    <img src="aylin/data icon.svg" alt="" />
+                                </div>
+                                <p class="date__news">День, Число Месяц, Год</p>
+                            </div>
+                            <div class="news__text">
+                                Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Eius, ea est itaque
+                                exercitationem molestias quam sapiente
+                                praesentium sequi rem totam eum cupiditate
+                                temporibus labore, recusandae repellendus.
+                                Voluptas reiciendis nesciunt magni nobis quos
+                                corporis, inventore quaerat consequatur nostrum
+                                ducimus molestiae quod iure adipisci recusandae
+                                dignissimos debitis soluta cupiditate id unde
+                                provident?
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="news__image">
+                                <img
+                                    src="aylin/byRanoGafurova-70627.jpg"
+                                    alt="news image"
+                                />
+                            </div>
+                            <div class="news__date">
+                                <div class="news__icon">
+                                    <img src="aylin/data icon.svg" alt="" />
+                                </div>
+                                <p class="date__news">День, Число Месяц, Год</p>
+                            </div>
+                            <div class="news__text">
+                                Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Eius, ea est itaque
+                                exercitationem molestias quam sapiente
+                                praesentium sequi rem totam eum cupiditate
+                                temporibus labore, recusandae repellendus.
+                                Voluptas reiciendis nesciunt magni nobis quos
+                                corporis, inventore quaerat consequatur nostrum
+                                ducimus molestiae quod iure adipisci recusandae
+                                dignissimos debitis soluta cupiditate id unde
+                                provident?
+                            </div>
+                        </div>
+                    </div>
+                </section> -->
+
                 <!-- section last -->
 
                 <section class="section__last">
@@ -336,18 +426,27 @@
                             © 2022 Aylin. Все права защищены.
                         </p>
                         <div class="footer__socials">
-                            <div class="footer__facebook">
+                            <a
+                                href="https://facebook.com/"
+                                target="_blank"
+                                class="footer__facebook"
+                            >
                                 <img src="imgs/facebook-white.png" alt="" />
-                            </div>
-                            <div class="footer__instagram">
+                            </a>
+                            <a
+                                href="https://instagram.com/"
+                                target="_blank"
+                                class="footer__instagram"
+                            >
                                 <img src="imgs/instagram-white.png" alt="" />
-                            </div>
+                            </a>
                         </div>
                     </div>
                 </div>
             </footer>
         </div>
 
+        <script src="js/news.js"></script>
         <!-- <script src="js/contact.js"></script> -->
         <script src="./js/about_us.js"></script>
         <script src="./js/price_list.js"></script>

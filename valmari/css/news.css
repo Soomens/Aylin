@@ -1,0 +1,33 @@
+.section__news {
+    width: 600px;
+    margin: 100px auto 0;
+}
+.news__image {
+    width: 580px;
+    height: 400px;
+}
+.news__image img {
+    width: 100%;
+}
+.news__date {
+    width: 45%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+}
+.news__text,
+.date__news {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #424242;
+}
+.news__text {
+    width: 580px;
+}
+.row:not(:last-child) {
+    margin-bottom: 20%;
+}

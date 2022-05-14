@@ -66,7 +66,7 @@ function price() {
                             <br />
                             <a href="#" class="last__subtitle">(237) 666-331-894</a>
                         </div>
-                        <div class="card">
+                        <div onclick="locate()" class="card">
                             <div class="location__icon"></div>
                             <h4 class="last__title">ЛОКАЦИЯ</h4>
                             <p class="last__subtitle">0123 Где-то</p>
