@@ -82,7 +82,7 @@
 }
 
 .footer__socials {
-    width: 8%;
+    width: 100px;
     display: flex;
     justify-content: space-between;
 }

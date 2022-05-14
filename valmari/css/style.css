@@ -344,12 +344,14 @@ h6 {
     margin: auto;
 
 }
+
 .img_sec1 {
     flex: 0 1 50%;
     height: 781px;
     margin: auto;
 }
-.f{
+
+.f {
     height: 500px !important;
 }
 
@@ -465,8 +467,9 @@ section {
     text-align: center;
     color: #d9b159;
 }
+
 @media (max-width: 1056px) {
-    .content-sec-1{
+    .content-sec-1 {
         text-align: center;
         margin: auto;
     }

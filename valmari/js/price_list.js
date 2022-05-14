@@ -53,38 +53,44 @@ function price() {
             </div>
         </section>
         <section class="section__last">
+                <div class="title">
+                    <h4>Связаться</h4>
+                    <h3>Контакт</h3>
+                </div>
                 <div class="container">
-                    <div class="title">
-                        <h4>Связаться</h4>
-                        <h3>Контакт</h3>
-                    </div>
                     <div class="section__cards">
-                        <div class="card">
-                            <div class="call__icon"></div>
-                            <h4 class="last__title">ЭКСТРЕННЫЙ</h4>
-                            <a href="#" class="last__subtitle">(237) 681-812-255</a>
-                            <br />
-                            <a href="#" class="last__subtitle">(237) 666-331-894</a>
+                        <div class="cards-top">
+                            <div class="card">
+                                <div class="call__icon"></div>
+                                <h4 class="last__title">ЭКСТРЕННЫЙ</h4>
+                                <a href="#" class="last__subtitle">(237) 681-812-255</a>
+                                <br />
+                                <a href="#" class="last__subtitle">(237) 666-331-894</a>
+                            </div>
+                            <div onclick="locate()" class="card">
+                                <div class="location__icon"></div>
+                                <h4 class="last__title">ЛОКАЦИЯ</h4>
+                                <p class="last__subtitle">0123 Где-то</p>
+                                <p class="last__subtitle">
+                                    9876 Какая-то страна
+                                </p>
+                            </div>
                         </div>
-                        <div onclick="locate()" class="card">
-                            <div class="location__icon"></div>
-                            <h4 class="last__title">ЛОКАЦИЯ</h4>
-                            <p class="last__subtitle">0123 Где-то</p>
-                            <p class="last__subtitle">
-                                9876 Какая-то страна
-                            </p>
-                        </div>
-                        <div class="card">
-                            <div class="email__icon"></div>
-                            <h4 class="last__title">ЭЛЕКТРОННЫЙ АДРЕС</h4>
-                            <a href="#" class="last__subtitle">пример@почты.com</a>
-                            <a href="#" class="last__subtitle">пример@почты.com</a>
-                        </div>
-                        <div class="card">
-                            <div class="clock__icon"></div>
-                            <h4 class="last__title">РАБОЧИЕ ДНИ</h4>
-                            <a href="#" class="last__subtitle">Пон-Суб 09:00-20:00</a>
-                            <a href="#" class="last__subtitle">Воскресенье отдых</a>
+                        <div class="cards-bottom">
+                            <div class="card">
+                                <div class="email__icon"></div>
+                                <h4 class="last__title">
+                                    ЭЛЕКТРОННЫЙ АДРЕС
+                                </h4>
+                                <a href="#" class="last__subtitle">пример@почты.com</a>
+                                <a href="#" class="last__subtitle">пример@почты.com</a>
+                            </div>
+                            <div class="card">
+                                <div class="clock__icon"></div>
+                                <h4 class="last__title">РАБОЧИЕ ДНИ</h4>
+                                <a href="#" class="last__subtitle">Пон-Суб 09:00-20:00</a>
+                                <a href="#" class="last__subtitle">Воскресенье отдых</a>
+                            </div>
                         </div>
                     </div>
                 </div>

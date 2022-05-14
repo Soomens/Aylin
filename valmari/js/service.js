@@ -1,4 +1,4 @@
-function news() {
+function serv() {
     document.querySelector("main").innerHTML = `
     <div class="hero">
                     <div class="main__container container">
@@ -35,84 +35,42 @@ function news() {
                         </div>
                     </div>
                 </div>
-                <section class="section__news">
+                <section class="section__serv">
                     <div class="container">
                         <div class="row">
-                            <div class="news__image">
+                            <div class="serv__image">
                                 <img
                                     src="aylin/byRanoGafurova-70627.jpg"
-                                    alt="news image"
+                                    alt="serv image"
                                 />
                             </div>
-                            <div class="news__date">
-                                <div class="news__icon">
-                                    <img src="aylin/data icon.svg" alt="" />
-                                </div>
-                                <p class="date__news">День, Число Месяц, Год</p>
-                            </div>
-                            <div class="news__text">
-                                Lorem ipsum dolor sit amet consectetur
-                                adipisicing elit. Eius, ea est itaque
-                                exercitationem molestias quam sapiente
-                                praesentium sequi rem totam eum cupiditate
-                                temporibus labore, recusandae repellendus.
-                                Voluptas reiciendis nesciunt magni nobis quos
-                                corporis, inventore quaerat consequatur nostrum
-                                ducimus molestiae quod iure adipisci recusandae
-                                dignissimos debitis soluta cupiditate id unde
-                                provident?
+                            <h5 class="serv__title">Заглавие</h5>
+                            <div class="serv__text">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae fugit repudiandae accusamus voluptas, necessitatibus aperiam maxime itaque sint veritatis reprehenderit asperiores ipsa ullam voluptatum aut sed eum fugiat consequuntur id possimus perferendis perspiciatis saepe nemo. Ipsa doloribus recusandae itaque ab.
                             </div>
                         </div>
                         <div class="row">
-                            <div class="news__image">
+                            <div class="serv__image">
                                 <img
                                     src="aylin/byRanoGafurova-70627.jpg"
                                     alt="news image"
                                 />
                             </div>
-                            <div class="news__date">
-                                <div class="news__icon">
-                                    <img src="aylin/data icon.svg" alt="" />
-                                </div>
-                                <p class="date__news">День, Число Месяц, Год</p>
-                            </div>
-                            <div class="news__text">
-                                Lorem ipsum dolor sit amet consectetur
-                                adipisicing elit. Eius, ea est itaque
-                                exercitationem molestias quam sapiente
-                                praesentium sequi rem totam eum cupiditate
-                                temporibus labore, recusandae repellendus.
-                                Voluptas reiciendis nesciunt magni nobis quos
-                                corporis, inventore quaerat consequatur nostrum
-                                ducimus molestiae quod iure adipisci recusandae
-                                dignissimos debitis soluta cupiditate id unde
-                                provident?
+                            <h5 class="serv__title">Заглавие</h5>
+                            <div class="serv__text">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae fugit repudiandae accusamus voluptas, necessitatibus aperiam maxime itaque sint veritatis reprehenderit asperiores ipsa ullam voluptatum aut sed eum fugiat consequuntur id possimus perferendis perspiciatis saepe nemo. Ipsa doloribus recusandae itaque ab.
                             </div>
                         </div>
                         <div class="row">
-                            <div class="news__image">
+                            <div class="serv__image">
                                 <img
                                     src="aylin/byRanoGafurova-70627.jpg"
                                     alt="news image"
                                 />
                             </div>
-                            <div class="news__date">
-                                <div class="news__icon">
-                                    <img src="aylin/data icon.svg" alt="" />
-                                </div>
-                                <p class="date__news">День, Число Месяц, Год</p>
-                            </div>
-                            <div class="news__text">
-                                Lorem ipsum dolor sit amet consectetur
-                                adipisicing elit. Eius, ea est itaque
-                                exercitationem molestias quam sapiente
-                                praesentium sequi rem totam eum cupiditate
-                                temporibus labore, recusandae repellendus.
-                                Voluptas reiciendis nesciunt magni nobis quos
-                                corporis, inventore quaerat consequatur nostrum
-                                ducimus molestiae quod iure adipisci recusandae
-                                dignissimos debitis soluta cupiditate id unde
-                                provident?
+                            <h5 class="serv__title">Заглавие</h5>
+                            <div class="serv__text">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae fugit repudiandae accusamus voluptas, necessitatibus aperiam maxime itaque sint veritatis reprehenderit asperiores ipsa ullam voluptatum aut sed eum fugiat consequuntur id possimus perferendis perspiciatis saepe nemo. Ipsa doloribus recusandae itaque ab.
                             </div>
                         </div>
                     </div>

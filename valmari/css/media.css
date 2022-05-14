@@ -1,0 +1,49 @@
+@media(max-width: 991.98px) {
+    .container {
+        width: 90%;
+    }
+
+    .buttons__head {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+
+    .button {
+        width: 285px;
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .grid__item {
+        width: 218px !important;
+    }
+
+    .section__cards>*:not(:last-child) {
+        margin-bottom: 40px;
+    }
+
+    .footer__socials {
+        width: 100px !important;
+    }
+
+    /* .section-1 {
+        margin-bottom: 100px !important;
+    } */
+    .wrap:not(:first-child) {
+        width: 70%;
+        margin: auto;
+        flex-direction: column;
+    }
+
+    .wrap:not(:last-child) {
+        margin-bottom: 50px;
+    }
+
+    .section__last {
+        width: 99%;
+        margin: auto;
+    }
+}
