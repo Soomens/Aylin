@@ -1,5 +1,5 @@
 function price() {
-    document.querySelector("main").innerHTML=`
+    document.querySelector("main").innerHTML = `
         <div class="hero">
             <div class="main__container container">
                 <div class="content__head">
@@ -89,5 +89,5 @@ function price() {
                     </div>
                 </div>
             </section>
-        `
+        `;
 }

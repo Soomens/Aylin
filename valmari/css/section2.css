@@ -48,7 +48,6 @@
 .grid__item:hover p {
     color: white;
     text-shadow: none;
-
 }
 
 .grid__item:hover .impulse_heart {

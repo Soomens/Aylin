@@ -1,5 +1,5 @@
-function locate(){
-    document.querySelector("main").innerHTML=`
+function locate() {
+    document.querySelector("main").innerHTML = `
     <div class="hero">
                 <div class="main__container container">
                     <div class="content__head">
@@ -74,5 +74,5 @@ function locate(){
                     </div>
                 </div>
             </section>
-    `
+    `;
 }
