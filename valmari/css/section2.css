@@ -37,6 +37,7 @@
     font-size: 20px;
     color: black;
     text-shadow: 0 0 10px white;
+    text-align: center;
 }
 
 .grid__item:hover {
