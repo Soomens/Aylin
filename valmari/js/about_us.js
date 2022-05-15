@@ -21,8 +21,8 @@ function about() {
                             </div>
                         </div>
                         <div class="buttons__head">
-                            <a href="#" class="btn-1 button">Записаться</a>
-                            <a href="#" class="btn-2 button">Узнать подробнее</a>
+                            <a href="#" onclick="serv()" class="btn-1 button">Записаться</a>
+                            <a href="#" onclick="about()" class="btn-2 button">Узнать подробнее</a>
                         </div>
                     </div>
                     <div class="img__head">
@@ -34,31 +34,38 @@ function about() {
             <!-- VALMARI  -->
             <section class="section-1">
                 <div class="container">
-                    <div class="wrap">
-                        <div class="img_sec1">
-                            <img src="aylin/3 (3).jpg" alt="">
-                        </div>
-                        <div class="content-sec-1">
-                            <h2>О нас</h2>
-                            <h3>
-                                <span class="logo__text">A<span>Y</span>LIN </span>
-                                ВЕДУЩИЙ КОСМЕТОЛОГИЧЕСКИЙ <br />
-                                ЦЕНТР ЭСТЕТИЧЕСКОЙ <br />
-                                КОСМЕТОЛОГИИ
-                            </h3>
-                            <p>
-                                Описание может быть любое. <br /><br />
-                                Ведущий косметологический центр эстетической
-                                косметологии.
-                                <br /><br />
-                                Более 5 лет мы проводим курсы
-                                сертифицированные курсы профессионального
-                                образования в области косметологии индустрии
-                                красоты, здоровья молодости. <br>
-                            </p>
-                        </div>
+                <div class="wrap">
+                    <div class="about__title title">
+                        <h4>Сведения</h4>
+                        <h3>О нас</h3>
                     </div>
-                    <d  iv class="wrap">
+                    <div class="wrap__bottom">
+                    <div class="img__sec1">
+                    <img src="aylin/byRanoGafurova-70323.jpg" alt="" />
+                </div>
+                <div class="content-sec-1">
+                    <h2>О нас</h2>
+                    <h3>
+                        <span class="logo__text">A<span>Y</span>LIN
+                        </span>
+                        ВЕДУЩИЙ КОСМЕТОЛОГИЧЕСКИЙ <br />
+                        ЦЕНТР ЭСТЕТИЧЕСКОЙ <br />
+                        КОСМЕТОЛОГИИ
+                    </h3>
+                    <p>
+                        Описание может быть любое. <br /><br />
+                        Ведущий косметологический центр эстетической
+                        косметологии.
+                        <br /><br />
+                        Более 5 лет мы проводим курсы
+                        сертифицированные курсы профессионального
+                        образования в области косметологии индустрии
+                        красоты, здоровья молодости. <br />
+                    </p>
+                </div>
+                    </div>
+            </div>
+                    <div class="wrap">
                         <div class="content-sec-1">
                             <p>
                                 Описание может быть любое. <br /><br />
@@ -74,7 +81,7 @@ function about() {
                         <div class="img_sec1 f">
                             <img src="aylin/byRanoGafurova-70627.jpg" alt="">
                         </div>
-                    </d>
+                    </div>
                     <div class="wrap">
                         <div class="img_sec1 f">
                             <img src="aylin/byRanoGafurova-70627.jpg" alt="">

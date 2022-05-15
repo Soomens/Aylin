@@ -1,10 +1,16 @@
 .section__serv {
-    width: 600px;
-    margin: 100px auto 0;
+    width: 100%;
+    margin: 100px auto -300px;
+}
+
+.rows {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .serv__image {
-    width: 580px;
+    max-width: 500px;
     height: 400px;
 }
 
@@ -13,7 +19,8 @@
 }
 
 .serv__title,
-.serv__text {
+.serv__text,
+.serv__price {
     font-family: "Montserrat", sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -25,9 +32,27 @@
 .serv__title {
     font-size: 25px;
     line-height: 29px;
+    text-align: center;
     margin: 10px 0;
 }
 
+.row {
+    width: 500px;
+}
+
 .row:not(:last-child) {
-    margin-bottom: 20%;
+    margin-bottom: 15%;
+}
+
+.serv__btn {
+    width: 60% !important;
+    background: none;
+    display: block;
+}
+
+.serv__enroll {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
 }

@@ -8,6 +8,7 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     padding-bottom: 45px;
     border-bottom: 1px solid #bff8c4;
 }

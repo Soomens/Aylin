@@ -1,3 +1,7 @@
+.section__last {
+    margin-top: 80px;
+}
+
 .section__cards {
     display: flex;
     justify-content: space-between;

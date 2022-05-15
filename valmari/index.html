@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="css/sectionprice.css" />
     <link rel="stylesheet" href="css/location.css" />
     <link rel="stylesheet" href="css/service.css" />
-    <title>Document</title>
+    <title>AYLIN</title>
 </head>
 
 <body>
@@ -55,8 +55,8 @@
                             <li class="header__item" onclick="about()">
                                 <p href="#" class="header__link">О нас</p>
                             </li>
-                            <li class="header__item">
-                                <p href="#" onclick="serv()" class="header__link">
+                            <li onclick="serv()" class="header__item">
+                                <p href="#" class="header__link">
                                     Услуги
                                 </p>
                             </li>
@@ -68,8 +68,8 @@
                             <li class="header__item" onclick="locate()">
                                 <p href="#" class="header__link">Локация</p>
                             </li>
-                            <li class="header__item">
-                                <p href="#" onclick="contact()" class="header__link">
+                            <li onclick="contact()" class="header__item">
+                                <p href="#" class="header__link">
                                     Контакты
                                 </p>
                             </li>
@@ -100,11 +100,12 @@
                                     для профессиональных косметологов <br />
                                     и интересующихся этой профессией
                                 </p>
+
                             </div>
                         </div>
                         <div class="buttons__head">
-                            <a href="#" class="btn-1 button">Записаться</a>
-                            <a href="#" onclick="about()" class="btn-2 button">Узнать подробнее</a>
+                            <button onclick="serv()" class="btn-1 button">Записаться</button>
+                            <button onclick="about()" class="btn-2 button">Узнать подробнее</button>
                         </div>
                     </div>
                     <div class="img__head">
@@ -118,31 +119,37 @@
             <section class="section-1">
                 <div class="container">
                     <div class="wrap">
-                        <div class="img__sec1">
-                            <img src="aylin/byRanoGafurova-70323.jpg" alt="" />
+                        <div class="about__title title">
+                            <h4>Сведения</h4>
+                            <h3>О нас</h3>
                         </div>
-                        <div class="content-sec-1">
-                            <h2>О нас</h2>
-                            <h3>
-                                <span class="logo__text">A<span>Y</span>LIN
-                                </span>
-                                ВЕДУЩИЙ КОСМЕТОЛОГИЧЕСКИЙ <br />
-                                ЦЕНТР ЭСТЕТИЧЕСКОЙ <br />
-                                КОСМЕТОЛОГИИ
-                            </h3>
-                            <p>
-                                Описание может быть любое. <br /><br />
-                                Ведущий косметологический центр эстетической
-                                косметологии.
-                                <br /><br />
-                                Более 5 лет мы проводим курсы
-                                сертифицированные курсы профессионального
-                                образования в области косметологии индустрии
-                                красоты, здоровья молодости. <br />
-                            </p>
-                            <a href="#">
-                                <h6 onclick="about()">Подробнее ➡</h6>
-                            </a>
+                        <div class="wrap__bottom">
+                            <div class="img__sec1">
+                                <img src="aylin/byRanoGafurova-70323.jpg" alt="" />
+                            </div>
+                            <div class="content-sec-1">
+                                <h2>О нас</h2>
+                                <h3>
+                                    <span class="logo__text">A<span>Y</span>LIN
+                                    </span>
+                                    ВЕДУЩИЙ КОСМЕТОЛОГИЧЕСКИЙ <br />
+                                    ЦЕНТР ЭСТЕТИЧЕСКОЙ <br />
+                                    КОСМЕТОЛОГИИ
+                                </h3>
+                                <p>
+                                    Описание может быть любое. <br /><br />
+                                    Ведущий косметологический центр эстетической
+                                    косметологии.
+                                    <br /><br />
+                                    Более 5 лет мы проводим курсы
+                                    сертифицированные курсы профессионального
+                                    образования в области косметологии индустрии
+                                    красоты, здоровья молодости. <br />
+                                </p>
+                                <a href="#">
+                                    <h6 onclick="about()">Подробнее ➡</h6>
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -154,140 +161,59 @@
                 </div>
                 <div class="container">
                     <div class="section-2__grid">
-                        <div class="grid__item">
+                        <div onclick="serv()" class="grid__item">
                             <div class="impulse_heart"></div>
-                            <p>Неврология</p>
+                            <p>Массажные техники</p>
                         </div>
-                        <div class="grid__item">
+                        <div onclick="serv()" class="grid__item">
                             <div class="impulse_heart"></div>
-                            <p>Кости</p>
+                            <p>СПА-процедуры</p>
                         </div>
-                        <div class="grid__item">
+                        <div onclick="serv()" class="grid__item">
                             <div class="impulse_heart"></div>
-                            <p>Онкология</p>
+                            <p>Пилинг</p>
                         </div>
-                        <div class="grid__item">
+                        <div onclick="serv()" class="grid__item">
                             <div class="impulse_heart"></div>
-                            <p>Оториноларингология</p>
+                            <p>Лифтинг</p>
                         </div>
-                        <div class="grid__item">
+                        <div onclick="serv()" class="grid__item">
                             <div class="impulse_heart"></div>
-                            <p>Офтальмология</p>
+                            <p>Криотерапия</p>
                         </div>
-                        <div class="grid__item">
+                        <div onclick="serv()" class="grid__item">
                             <div class="impulse_heart"></div>
-                            <p>Кардиоваскуляр</p>
+                            <p>Липосакция</p>
                         </div>
-                        <div class="grid__item">
+                        <div onclick="serv()" class="grid__item">
                             <div class="impulse_heart"></div>
-                            <p>Пульмонология</p>
+                            <p>Мезатерапия</p>
                         </div>
-                        <div class="grid__item">
+                        <div onclick="serv()" class="grid__item">
                             <div class="impulse_heart"></div>
-                            <p>Почечная медицина</p>
+                            <p>Контурная пластика</p>
                         </div>
-                        <div class="grid__item">
+                        <div onclick="serv()" class="grid__item">
                             <div class="impulse_heart"></div>
-                            <p>Гастроэнтерология</p>
+                            <p>Перманетный макияж</p>
                         </div>
-                        <div class="grid__item">
+                        <div onclick="serv()" class="grid__item">
                             <div class="impulse_heart"></div>
-                            <p>Урология</p>
+                            <p>Микродермаб&shyразия</p>
                         </div>
-                        <div class="grid__item">
+                        <div onclick="serv()" class="grid__item">
                             <div class="impulse_heart"></div>
-                            <p>Дерматология</p>
+                            <p>Кавитация</p>
                         </div>
-                        <div class="grid__item">
+                        <div onclick="serv()" class="grid__item">
                             <div class="impulse_heart"></div>
-                            <p>Гинекология</p>
+                            <p>Ревитализация</p>
                         </div>
                     </div>
                 </div>
             </section>
 
-            <!-- <section class="section__news">
-                    <div class="container">
-                        <div class="row">
-                            <div class="news__image">
-                                <img
-                                    src="aylin/byRanoGafurova-70627.jpg"
-                                    alt="news image"
-                                />
-                            </div>
-                            <div class="news__date">
-                                <div class="news__icon">
-                                    <img src="aylin/data icon.svg" alt="" />
-                                </div>
-                                <p class="date__news">День, Число Месяц, Год</p>
-                            </div>
-                            <div class="news__text">
-                                Lorem ipsum dolor sit amet consectetur
-                                adipisicing elit. Eius, ea est itaque
-                                exercitationem molestias quam sapiente
-                                praesentium sequi rem totam eum cupiditate
-                                temporibus labore, recusandae repellendus.
-                                Voluptas reiciendis nesciunt magni nobis quos
-                                corporis, inventore quaerat consequatur nostrum
-                                ducimus molestiae quod iure adipisci recusandae
-                                dignissimos debitis soluta cupiditate id unde
-                                provident?
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="news__image">
-                                <img
-                                    src="aylin/byRanoGafurova-70627.jpg"
-                                    alt="news image"
-                                />
-                            </div>
-                            <div class="news__date">
-                                <div class="news__icon">
-                                    <img src="aylin/data icon.svg" alt="" />
-                                </div>
-                                <p class="date__news">День, Число Месяц, Год</p>
-                            </div>
-                            <div class="news__text">
-                                Lorem ipsum dolor sit amet consectetur
-                                adipisicing elit. Eius, ea est itaque
-                                exercitationem molestias quam sapiente
-                                praesentium sequi rem totam eum cupiditate
-                                temporibus labore, recusandae repellendus.
-                                Voluptas reiciendis nesciunt magni nobis quos
-                                corporis, inventore quaerat consequatur nostrum
-                                ducimus molestiae quod iure adipisci recusandae
-                                dignissimos debitis soluta cupiditate id unde
-                                provident?
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="news__image">
-                                <img
-                                    src="aylin/byRanoGafurova-70627.jpg"
-                                    alt="news image"
-                                />
-                            </div>
-                            <div class="news__date">
-                                <div class="news__icon">
-                                    <img src="aylin/data icon.svg" alt="" />
-                                </div>
-                                <p class="date__news">День, Число Месяц, Год</p>
-                            </div>
-                            <div class="news__text">
-                                Lorem ipsum dolor sit amet consectetur
-                                adipisicing elit. Eius, ea est itaque
-                                exercitationem molestias quam sapiente
-                                praesentium sequi rem totam eum cupiditate
-                                temporibus labore, recusandae repellendus.
-                                Voluptas reiciendis nesciunt magni nobis quos
-                                corporis, inventore quaerat consequatur nostrum
-                                ducimus molestiae quod iure adipisci recusandae
-                                dignissimos debitis soluta cupiditate id unde
-                                provident?
-                            </div>
-                        </div>
-                    </div>
-                </section> -->
+
 
             <!-- section last -->
 
@@ -299,7 +225,7 @@
                 <div class="container">
                     <div class="section__cards">
                         <div class="cards-top">
-                            <div class="card">
+                            <div onclick="contact()" class="card">
                                 <div class="call__icon"></div>
                                 <h4 class="last__title">ЭКСТРЕННЫЙ</h4>
                                 <a href="#" class="last__subtitle">(237) 681-812-255</a>
@@ -346,7 +272,7 @@
                             Совершенство, Надежная забота.
                         </p>
                     </div>
-                    <div class="third_row">
+                    <div class="second__row">
                         <h6 class="footer__third__title">
                             Связаться с нами
                         </h6>
@@ -365,11 +291,12 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="fourth_row">
+                    <div class="third__row">
                         <h6 class="footer__fourth__title">
                             Новостная рассылка
                         </h6>
                         <input class="footer__input" type="email" placeholder="Enter your email address" />
+
                     </div>
                 </div>
                 <div class="footer__bottom">
@@ -390,7 +317,7 @@
     </div>
 
     <script src="js/service.js"></script>
-    <!-- <script src="js/contact.js"></script> -->
+    <script src="js/contact.js"></script>
     <script src="./js/about_us.js"></script>
     <script src="./js/price_list.js"></script>
     <script src="./js/locate.js"></script>

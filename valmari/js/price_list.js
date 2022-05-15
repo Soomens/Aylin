@@ -21,8 +21,8 @@ function price() {
                         </div>
                     </div>
                     <div class="buttons__head">
-                        <a href="#" class="btn-1 button">Записаться</a>
-                        <a href="#" class="btn-2 button">Узнать подробнее</a>
+                        <a href="#" onclick="serv()" class="btn-1 button">Записаться</a>
+                        <a href="#" onclick="about()" class="btn-2 button">Узнать подробнее</a>
                     </div>
                 </div>
                 <div class="img__head">
@@ -33,6 +33,10 @@ function price() {
         <!-- Кодиров Алишер, Гаипов Азизбек -->
         <section class="section__price">
             <div class="container">
+                <div class="price__title title">
+                    <h4>Прайс-лист</h4>
+                    <h3>Цены</h3>
+                </div>
                 <div class="price__list">
                     <div class="price__first__column">
                         <img src="aylin/price1.png" alt="" />

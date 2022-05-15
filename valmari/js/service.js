@@ -21,7 +21,7 @@ function serv() {
                                 </div>
                             </div>
                             <div class="buttons__head">
-                                <a href="#" class="btn-1 button">Записаться</a>
+                                <a href="#" onclick="serv()" class="btn-1 button">Записаться</a>
                                 <a
                                     href="#"
                                     onclick="about()"
@@ -36,42 +36,204 @@ function serv() {
                     </div>
                 </div>
                 <section class="section__serv">
-                    <div class="container">
-                        <div class="row">
-                            <div class="serv__image">
-                                <img
-                                    src="aylin/byRanoGafurova-70627.jpg"
-                                    alt="serv image"
-                                />
-                            </div>
-                            <h5 class="serv__title">Заглавие</h5>
-                            <div class="serv__text">
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae fugit repudiandae accusamus voluptas, necessitatibus aperiam maxime itaque sint veritatis reprehenderit asperiores ipsa ullam voluptatum aut sed eum fugiat consequuntur id possimus perferendis perspiciatis saepe nemo. Ipsa doloribus recusandae itaque ab.
-                            </div>
+                    <div class="serv__container container">
+                        <div class="service__title title">
+                            <h4>Записаться</h4>
+                            <h3>Услуги</h3>
                         </div>
+                        <div class="rows">
                         <div class="row">
-                            <div class="serv__image">
-                                <img
-                                    src="aylin/byRanoGafurova-70627.jpg"
-                                    alt="news image"
-                                />
-                            </div>
-                            <h5 class="serv__title">Заглавие</h5>
-                            <div class="serv__text">
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae fugit repudiandae accusamus voluptas, necessitatibus aperiam maxime itaque sint veritatis reprehenderit asperiores ipsa ullam voluptatum aut sed eum fugiat consequuntur id possimus perferendis perspiciatis saepe nemo. Ipsa doloribus recusandae itaque ab.
-                            </div>
+                        <div class="serv__image">
+                            <img
+                                src="aylin/byRanoGafurova-70627.jpg"
+                                alt="serv image"
+                            />
                         </div>
-                        <div class="row">
-                            <div class="serv__image">
-                                <img
-                                    src="aylin/byRanoGafurova-70627.jpg"
-                                    alt="news image"
-                                />
-                            </div>
-                            <h5 class="serv__title">Заглавие</h5>
-                            <div class="serv__text">
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae fugit repudiandae accusamus voluptas, necessitatibus aperiam maxime itaque sint veritatis reprehenderit asperiores ipsa ullam voluptatum aut sed eum fugiat consequuntur id possimus perferendis perspiciatis saepe nemo. Ipsa doloribus recusandae itaque ab.
-                            </div>
+                        <h5 class="serv__title">Неврология</h5>
+                        <div class="serv__text">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae fugit repudiandae accusamus voluptas, necessitatibus aperiam maxime itaque sint veritatis reprehenderit asperiores ipsa ullam voluptatum aut sed eum fugiat consequuntur id possimus perferendis perspiciatis saepe nemo. Ipsa doloribus recusandae itaque ab.
+                        </div>
+                        <div class="serv__enroll">
+                            <p class="serv__price">Цена</p>
+                            <button type="button" class="serv__btn button">Записаться</button>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="serv__image">
+                            <img
+                                src="aylin/byRanoGafurova-70627.jpg"
+                                alt="serv image"
+                            />
+                        </div>
+                        <h5 class="serv__title">Кости</h5>
+                        <div class="serv__text">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae fugit repudiandae accusamus voluptas, necessitatibus aperiam maxime itaque sint veritatis reprehenderit asperiores ipsa ullam voluptatum aut sed eum fugiat consequuntur id possimus perferendis perspiciatis saepe nemo. Ipsa doloribus recusandae itaque ab.
+                        </div>
+                        <div class="serv__enroll">
+                            <p class="serv__price">Цена</p>
+                            <button type="button" class="serv__btn button">Записаться</button>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="serv__image">
+                            <img
+                                src="aylin/byRanoGafurova-70627.jpg"
+                                alt="serv image"
+                            />
+                        </div>
+                        <h5 class="serv__title">Онкология</h5>
+                        <div class="serv__text">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae fugit repudiandae accusamus voluptas, necessitatibus aperiam maxime itaque sint veritatis reprehenderit asperiores ipsa ullam voluptatum aut sed eum fugiat consequuntur id possimus perferendis perspiciatis saepe nemo. Ipsa doloribus recusandae itaque ab.
+                        </div>
+                        <div class="serv__enroll">
+                            <p class="serv__price">Цена</p>
+                            <button type="button" class="serv__btn button">Записаться</button>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="serv__image">
+                            <img
+                                src="aylin/byRanoGafurova-70627.jpg"
+                                alt="serv image"
+                            />
+                        </div>
+                        <h5 class="serv__title">Оториноларингология</h5>
+                        <div class="serv__text">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae fugit repudiandae accusamus voluptas, necessitatibus aperiam maxime itaque sint veritatis reprehenderit asperiores ipsa ullam voluptatum aut sed eum fugiat consequuntur id possimus perferendis perspiciatis saepe nemo. Ipsa doloribus recusandae itaque ab.
+                        </div>
+                        <div class="serv__enroll">
+                            <p class="serv__price">Цена</p>
+                            <button type="button" class="serv__btn button">Записаться</button>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="serv__image">
+                            <img
+                                src="aylin/byRanoGafurova-70627.jpg"
+                                alt="serv image"
+                            />
+                        </div>
+                        <h5 class="serv__title">Офтальмология</h5>
+                        <div class="serv__text">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae fugit repudiandae accusamus voluptas, necessitatibus aperiam maxime itaque sint veritatis reprehenderit asperiores ipsa ullam voluptatum aut sed eum fugiat consequuntur id possimus perferendis perspiciatis saepe nemo. Ipsa doloribus recusandae itaque ab.
+                        </div>
+                        <div class="serv__enroll">
+                            <p class="serv__price">Цена</p>
+                            <button type="button" class="serv__btn button">Записаться</button>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="serv__image">
+                            <img
+                                src="aylin/byRanoGafurova-70627.jpg"
+                                alt="serv image"
+                            />
+                        </div>
+                        <h5 class="serv__title">Кардиоваскуляр</h5>
+                        <div class="serv__text">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae fugit repudiandae accusamus voluptas, necessitatibus aperiam maxime itaque sint veritatis reprehenderit asperiores ipsa ullam voluptatum aut sed eum fugiat consequuntur id possimus perferendis perspiciatis saepe nemo. Ipsa doloribus recusandae itaque ab.
+                        </div>
+                        <div class="serv__enroll">
+                            <p class="serv__price">Цена</p>
+                            <button type="button" class="serv__btn button">Записаться</button>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="serv__image">
+                            <img
+                                src="aylin/byRanoGafurova-70627.jpg"
+                                alt="serv image"
+                            />
+                        </div>
+                        <h5 class="serv__title">Пульмонология</h5>
+                        <div class="serv__text">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae fugit repudiandae accusamus voluptas, necessitatibus aperiam maxime itaque sint veritatis reprehenderit asperiores ipsa ullam voluptatum aut sed eum fugiat consequuntur id possimus perferendis perspiciatis saepe nemo. Ipsa doloribus recusandae itaque ab.
+                        </div>
+                        <div class="serv__enroll">
+                            <p class="serv__price">Цена</p>
+                            <button type="button" class="serv__btn button">Записаться</button>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="serv__image">
+                            <img
+                                src="aylin/byRanoGafurova-70627.jpg"
+                                alt="serv image"
+                            />
+                        </div>
+                        <h5 class="serv__title">Почечная медецина</h5>
+                        <div class="serv__text">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae fugit repudiandae accusamus voluptas, necessitatibus aperiam maxime itaque sint veritatis reprehenderit asperiores ipsa ullam voluptatum aut sed eum fugiat consequuntur id possimus perferendis perspiciatis saepe nemo. Ipsa doloribus recusandae itaque ab.
+                        </div>
+                        <div class="serv__enroll">
+                            <p class="serv__price">Цена</p>
+                            <button type="button" class="serv__btn button">Записаться</button>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="serv__image">
+                            <img
+                                src="aylin/byRanoGafurova-70627.jpg"
+                                alt="serv image"
+                            />
+                        </div>
+                        <h5 class="serv__title">Гастроэнтерология</h5>
+                        <div class="serv__text">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae fugit repudiandae accusamus voluptas, necessitatibus aperiam maxime itaque sint veritatis reprehenderit asperiores ipsa ullam voluptatum aut sed eum fugiat consequuntur id possimus perferendis perspiciatis saepe nemo. Ipsa doloribus recusandae itaque ab.
+                        </div>
+                        <div class="serv__enroll">
+                            <p class="serv__price">Цена</p>
+                            <button type="button" class="serv__btn button">Записаться</button>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="serv__image">
+                            <img
+                                src="aylin/byRanoGafurova-70627.jpg"
+                                alt="serv image"
+                            />
+                        </div>
+                        <h5 class="serv__title">Урология</h5>
+                        <div class="serv__text">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae fugit repudiandae accusamus voluptas, necessitatibus aperiam maxime itaque sint veritatis reprehenderit asperiores ipsa ullam voluptatum aut sed eum fugiat consequuntur id possimus perferendis perspiciatis saepe nemo. Ipsa doloribus recusandae itaque ab.
+                        </div>
+                        <div class="serv__enroll">
+                            <p class="serv__price">Цена</p>
+                            <button type="button" class="serv__btn button">Записаться</button>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="serv__image">
+                            <img
+                                src="aylin/byRanoGafurova-70627.jpg"
+                                alt="serv image"
+                            />
+                        </div>
+                        <h5 class="serv__title">Дерматология</h5>
+                        <div class="serv__text">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae fugit repudiandae accusamus voluptas, necessitatibus aperiam maxime itaque sint veritatis reprehenderit asperiores ipsa ullam voluptatum aut sed eum fugiat consequuntur id possimus perferendis perspiciatis saepe nemo. Ipsa doloribus recusandae itaque ab.
+                        </div>
+                        <div class="serv__enroll">
+                            <p class="serv__price">Цена</p>
+                            <button type="button" class="serv__btn button">Записаться</button>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="serv__image">
+                            <img
+                                src="aylin/byRanoGafurova-70627.jpg"
+                                alt="serv image"
+                            />
+                        </div>
+                        <h5 class="serv__title">Геникология</h5>
+                        <div class="serv__text">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae fugit repudiandae accusamus voluptas, necessitatibus aperiam maxime itaque sint veritatis reprehenderit asperiores ipsa ullam voluptatum aut sed eum fugiat consequuntur id possimus perferendis perspiciatis saepe nemo. Ipsa doloribus recusandae itaque ab.
+                        </div>
+                        <div class="serv__enroll">
+                            <p class="serv__price">Цена</p>
+                            <button type="button" class="serv__btn button">Записаться</button>
+                        </div>
+                    </div>
                         </div>
                     </div>
                 </section>

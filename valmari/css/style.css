@@ -310,6 +310,7 @@ h6 {
     justify-content: center;
     box-sizing: border-box;
     transition: all 0.2s linear;
+    background: none;
 }
 
 .button:hover {
@@ -333,6 +334,7 @@ h6 {
     padding-bottom: 50px;
 }
 
+.wrap__bottom,
 .wrap {
     display: flex;
     flex-wrap: wrap;
@@ -468,7 +470,7 @@ section {
     color: #d9b159;
 }
 
-@media (max-width: 1056px) {
+@media(max-width: 1056px) {
     .content-sec-1 {
         text-align: center;
         margin: auto;

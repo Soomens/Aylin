@@ -21,7 +21,7 @@ function contact() {
                                 </div>
                             </div>
                             <div class="buttons__head">
-                                <a href="#" class="btn-1 button">Записаться</a>
+                                <a href="#" onclick="serv()" class="btn-1 button">Записаться</a>
                                 <a
                                     href="#"
                                     onclick="about()"
