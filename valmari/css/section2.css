@@ -19,8 +19,8 @@
 }
 
 .grid__item {
-    width: 248px;
-    height: 172px;
+    width: 25%;
+    height: calc(100%/3);
     display: flex;
     flex-direction: column;
     justify-content: center;
