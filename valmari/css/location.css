@@ -6,3 +6,39 @@
     display: flex;
     justify-content: space-between;
 }
+
+.contact__us {
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 10%;
+}
+
+.locate__address,
+.locate__contact h5,
+.contact__item,
+.locate__subtitle {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 22px;
+    color: #424242;
+}
+
+.locate__contact {
+    margin-top: 5%;
+}
+
+.contact__item {
+    margin-left: 5%;
+}
+
+.contact__item {
+    margin-top: 8px;
+}
+
+.locate__subtitle {
+    margin-top: 50px;
+}

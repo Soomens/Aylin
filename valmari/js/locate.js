@@ -38,8 +38,29 @@ function locate() {
                         <h3>Адрес</h3>
                     </div>
                     <div class="locate__cart">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2996.4748079029278!2d69.28651911538402!3d41.32028757927039!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38aef5b103d445a3%3A0x88a340bb5b81fb94!2sAylin%20Clinic!5e0!3m2!1sru!2s!4v1652363797904!5m2!1sru!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>    
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d970.1359126225489!2d69.2613202468116!3d41.32344341056144!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ae8b84b29ca009%3A0xfa346566af1f2778!2sAylin%20Clinic!5e0!3m2!1sru!2s!4v1652362499200!5m2!1sru!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2996.4748079029278!2d69.28651911538402!3d41.32028757927039!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38aef5b103d445a3%3A0x88a340bb5b81fb94!2sAylin%20Clinic!5e0!3m2!1sru!2s!4v1652363797904!5m2!1sru!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>    
+                        <div class="contact__us">
+                                    <div class="locate__address">
+                                        <p>Адрес: Юнусабадский район,
+                                            Абдулла Кадыри, 7.<br> Ориентир ресторан Basri baba, в Яндекс-такси указаны
+                                            как
+                                            Aylin. </p>
+                                    </div>
+                                    <div class="locate__contact">
+                                        <h5>Контакты:</h5>
+                                        <ul class="contact__menu">
+                                            <li class="contact__item">
+                                                <p class="contact__link">+998(71) 208-70-07</p>
+                                            </li>
+                                            <li class="contact__item">
+                                                <p class="contact__link">+998(99) 208-70-07</p>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="contact__text">
+                                        <p class="locate__subtitle">Мы всегда рады вам!</p>
+                                    </div>
+                                </div>
                     </div>
                 </div>
             </section>
