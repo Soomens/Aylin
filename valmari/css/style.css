@@ -474,5 +474,6 @@ section {
     .content-sec-1 {
         text-align: center;
         margin: auto;
+        padding: 0;
     }
 }
